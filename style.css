@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Raleway:ital@1&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#index{
+    background-color: rgb(247, 235, 250);
+}
+
+#coresSimples{
+    background-color: purple;
+}
+
+#coresRandom{
+    background-color: purple;
+}
+
+#cor, #corRandom{
+    font-family: 'Raleway', sans-serif;
+}
+
+#pagRandom{
+    display: none;
+}
+
+#pagNome{
+    display: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(85, 3, 81);
+}
+
+#btnNome, #btnRandom{
+    cursor: pointer;
+    top: 100px;
+    width: 100px;
+    height: 30px;
+    background: none;
+    border: 2px solid purple;
+    border-radius: 7px;
+    color: rgb(85, 3, 81);
+}
+
+#btnNome{
+    position: absolute;
+    left: 580px;
+}
+
+#btnRandom{
+    position: absolute;
+    left: 690px;
+}
+
+#btnNome:hover{
+    background-color: rgb(85, 3, 81);
+    color: white;
+}
+
+#btnRandom:hover{
+    background-color: rgb(85, 3, 81);
+    color: white;
+}
+
+#cor, #corRandom{
+    position: absolute;
+    top: 200px;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+#cor{
+    left: 625px;
+}
+
+#corRandom{
+    left: 610px;
+}
+
+#btnTrocaCorRandom, #btnTrocaCor{
+    position: absolute;
+    top: 270px;
+    background: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    border: solid white 2px;
+    cursor: pointer;
+}
+
+#btnTrocaCorRandom:hover{
+    color: purple;
+    background-color: aliceblue;
+}
+
+#btnTrocaCor:hover{
+    color: purple;
+    background-color: aliceblue;
+}
+
+#btnTrocaCorRandom{
+    left: 615px;
+}
+
+#btnTrocaCor{
+    left: 605px;
+}
+
